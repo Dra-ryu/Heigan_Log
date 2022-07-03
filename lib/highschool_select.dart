@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'applicationCombination.dart';
+
 class highschoolSelect extends StatefulWidget {
 
   @override
@@ -7,8 +9,8 @@ class highschoolSelect extends StatefulWidget {
 }
 
 class _highschoolSelectState extends State<highschoolSelect> {
-  String isSelectedItem1 = '高校名を選択';
-  String isSelectedItem2 = '高校名を選択';
+  String selectedHighschool_1 = '高校名を選択';
+  String selectedHighschool_2 = '高校名を選択';
 
   List<String> dropdownValues1 = ["高校名を選択","A高校", "B高校", "C高校"];
   List<String> dropdownValues2 = ["高校名を選択","A高校", "B高校"];
@@ -55,10 +57,10 @@ class _highschoolSelectState extends State<highschoolSelect> {
               ],
               onChanged: (String? value) {
                 setState(()  {
-                  isSelectedItem1 = value!;
+                  selectedHighschool_1 = value!;
                 });
               },
-              value: isSelectedItem1,
+              value: selectedHighschool_1,
               style: TextStyle(
                 fontSize: 25.0,
                 color: Colors.black,
@@ -97,10 +99,10 @@ class _highschoolSelectState extends State<highschoolSelect> {
               ],
               onChanged: (String? value) {
                 setState(()  {
-                  isSelectedItem2 = value!;
+                  selectedHighschool_2 = value!;
                 });
               },
-              value: isSelectedItem2,
+              value: selectedHighschool_2,
               style: TextStyle(
                 fontSize: 25.0,
                 color: Colors.black,
@@ -117,11 +119,10 @@ class _highschoolSelectState extends State<highschoolSelect> {
               padding: const EdgeInsets.only(top: 50),
               child: ElevatedButton(
                 onPressed: () {
-                  // TODO ページ遷移に必要な部分
-                  // Navigator.push(
-                  //   context,
-                  //   MaterialPageRoute(builder: (context) => NextPage(isSelectedItem1, isSelectedItem2)),
-                  // );
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => MyApp(selectedHighschool_1, selectedHighschool_2)),
+                  );
                 },
                 style: ElevatedButton.styleFrom(
                   primary: Color(0xff151280),
