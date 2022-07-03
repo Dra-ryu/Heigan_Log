@@ -7,11 +7,13 @@ This is a temporary script file.
 
 import csv
 import numpy as np
+import csv_to_sqlite
 
+MAXSCHOOL = 5
 
 school_dict = {}
 
-upper_letter = [chr(ord("A")+i) for i in range(5)]
+upper_letter = [chr(ord("A")+i) for i in range(MAXSCHOOL)]
 upper_letter_dict = {}
 
 for i in upper_letter:
@@ -37,7 +39,7 @@ test_subject = {1:'英国数理社', 2:'英国数', 3:'英', 4:'数', 5:'国', 6
 np.random.seed(seed=1)
 school_db = [['school_name', 'school_ID', 'test_format', 'test_ID', 'date', 'subjects']]
 test_id = []
-for i in range(5):
+for i in range(MAXSCHOOL):
     for j in range(np.random.randint(6) + 1):
         test_id.append(school_dict[upper_letter[i] + "_high_school"] + str(j+1))
         school_db.append([upper_letter[i] + "_high_school", school_dict[upper_letter[i] + "_high_school"], j+1 ,\
@@ -72,3 +74,9 @@ with open('user.csv', "w", newline='') as f:
     dataWriter = csv.writer(f)
     dataWriter.writerows(user_db)
 f.close()
+
+options = csv_to_sqlite.CsvOptions(typing_style="full", encoding="ANSI") 
+input_file_school = ["school.csv"]
+csv_to_sqlite.write_csv(input_file_school, "school.db", options)
+input_file_user = ["user.csv"]
+csv_to_sqlite.write_csv(input_file_user, "user.db", options)
