@@ -12,8 +12,8 @@ class _highschoolSelectState extends State<highschoolSelect> {
   String selectedHighschool_1 = '高校名を選択';
   String selectedHighschool_2 = '高校名を選択';
 
-  List<String> dropdownValues1 = ["高校名を選択","A高校", "B高校", "C高校"];
-  List<String> dropdownValues2 = ["高校名を選択","A高校", "B高校"];
+  List<String> dropdownValues1 = ["高校名を選択", "県立A高校", "私立B高校", "私立C高校", "私立D高校", "私立E高校"];
+  List<String> dropdownValues2 = ["高校名を選択","県立A高校", "私立B高校", "私立C高校", "私立D高校", "私立E高校"];
 
   @override
   Widget build(BuildContext context) {
