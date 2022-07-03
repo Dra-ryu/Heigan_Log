@@ -119,7 +119,7 @@ class _SamplePageState extends State<SamplePage> {
                   value: '0003',
                 ),
                 DropdownMenuItem(
-                  child: Text('B方式'),
+                  child: Text('D方式'),
                   value: '0004',
                 ),
               ],
@@ -193,7 +193,7 @@ class _SamplePageState extends State<SamplePage> {
                   value: '0003',
                 ),
                 DropdownMenuItem(
-                  child: Text('B方式'),
+                  child: Text('D方式'),
                   value: '0004',
                 ),
               ],
