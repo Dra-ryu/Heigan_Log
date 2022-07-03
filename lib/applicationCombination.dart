@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'experience.dart';
 
-class MyApp extends StatelessWidget {
+class ApplicationCombinationApp extends StatelessWidget {
 
   // 選択された高校名を受け取る処理
-  MyApp(this.selectedHighschool_1, this.selectedHighschool_2);
+  ApplicationCombinationApp(this.selectedHighschool_1, this.selectedHighschool_2);
   String selectedHighschool_1;
   String selectedHighschool_2;
 
@@ -85,7 +86,12 @@ class button extends StatelessWidget {
                 borderRadius: new BorderRadius.circular(30.0),
               )
           ),
-          onPressed: (){},
+          onPressed: (){
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => ExperienceApp()),
+            );
+          },
           child: Text('体験記を見る')
       ),
     );
