@@ -27,9 +27,9 @@ class _TopPageState extends State<TopPage> {
                   width: 330,
                   height: 330,
                 ),
-                Text ('志望校を選択するだけ。', style: TextStyle(fontSize: 20),),
+                Text ('志望校を選択するだけ', style: TextStyle(fontSize: 20),),
                 SizedBox(height: 7),
-                Text ('先輩の入試体験記を、いつでもどこからでも。', style: TextStyle(fontSize: 15)),
+                Text ('先輩の入試体験記を、いつでもどこからでも｡', style: TextStyle(fontSize: 15)),
                 SizedBox(height: 1),
                 Text ('未来への一歩をを応援します🌸', style: TextStyle(fontSize: 15)),
                 //TODO; explanation of this app.
