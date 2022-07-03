@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(ExperienceApp());
-}
-
 class ExperienceApp extends StatelessWidget {
+  // 選択された高校名を受け取る処理
+  ExperienceApp(this.selectedHighschoolWay_1, this.selectedHighschoolWay_2);
+  String selectedHighschoolWay_1;
+  String selectedHighschoolWay_2;
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
