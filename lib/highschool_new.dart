@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'Second_Page.dart';
+
 
 class createExperienceApp extends StatelessWidget {
   const createExperienceApp({Key? key}) : super(key: key);
@@ -328,7 +330,12 @@ class _SamplePageState extends State<SamplePage> {
                 borderRadius: BorderRadius.circular(10),
               ),
             ),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => SecondPage()),
+              );
+            },
           ),
 
             ],
