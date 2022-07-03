@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(ExperienceApp());
 }
 
-class MyApp extends StatelessWidget {
+class ExperienceApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,25 +15,22 @@ class MyApp extends StatelessWidget {
         ), //上のバー
         body: SingleChildScrollView( //スクロールできるようにした
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              //crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
 
                 Card( //Cardなのでサイズは自動調節される、これを今後増やす
-                    //child: Align(alignment: Alignment.center),
                     margin: EdgeInsets.symmetric(vertical: 20.0, horizontal: 25.0),
                     color: Colors.indigo[100],
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
                           HighSchoolName(),
                           Subject(),
                           Impression()
                       ],
                     ),
-
                     ),
               ],
             )),
@@ -59,7 +56,8 @@ class HighSchoolName extends StatelessWidget{
       Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          Text('B高校'), //DBから
+          Text('B高校'
+            ), //DBから
           Text('2方式'), //DBから
           Text('合格') //DBから
           ],
@@ -75,11 +73,11 @@ class Subject extends StatelessWidget{
   Widget build(BuildContext context){
     return Center(
       child: Row(
-        children: <Widget>[
-          Text('得意科目：'),
+          children: <Widget>[
+          Text('得意科目：'), //DBから
           Text('国語'),
         ]
-      ),
+    )
     );
   }
 }
@@ -87,8 +85,9 @@ class Subject extends StatelessWidget{
 class Impression extends StatelessWidget{
   @override
   Widget build(BuildContext context){
-    return
-       Column(
+    return Container(
+       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text('感想',
           //文字書式
@@ -97,7 +96,7 @@ class Impression extends StatelessWidget{
           //文字書式
           )
         ]
-
+       )
     );
   }
 }
