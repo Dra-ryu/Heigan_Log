@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'highschool_new.dart';
 import 'highschool_select.dart';
 
 class TopPage extends StatefulWidget {
@@ -75,7 +76,14 @@ class _TopPageState extends State<TopPage> {
                           borderRadius: BorderRadius.circular(30.0)
                       ),
                       color: Color(0xFF151280),
-                      onPressed: (){},
+                      onPressed: (){
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => createExperienceApp()
+                          ),
+                        );
+                      },
                       //TODO: specify the routeName for posting page.
                       child: Text(
                           '体験記を投稿',
