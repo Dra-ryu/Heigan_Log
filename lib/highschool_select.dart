@@ -121,7 +121,7 @@ class _highschoolSelectState extends State<highschoolSelect> {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => MyApp(selectedHighschool_1, selectedHighschool_2)),
+                    MaterialPageRoute(builder: (context) => ApplicationCombinationApp(selectedHighschool_1, selectedHighschool_2)),
                   );
                 },
                 style: ElevatedButton.styleFrom(
