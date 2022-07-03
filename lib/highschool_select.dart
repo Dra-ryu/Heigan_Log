@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(highschoolSelectPage());
-
 class highschoolSelect extends StatefulWidget {
 
   @override
