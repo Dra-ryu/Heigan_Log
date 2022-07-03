@@ -49,18 +49,38 @@ class HighSchoolName extends StatelessWidget{
       Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          Text('A高校'), //DBから
-          Text('１方式'), //DBから
-          Text('合格') //DBから
+          Text('県立A高校',
+          style: TextStyle(
+            fontSize: 15, fontWeight: FontWeight.bold
+          )
+          ), //DBから
+          Text('A方式',
+          style: TextStyle(
+              fontSize: 12,
+              )
+          ), //DBから
+          Text('合格',
+              style: TextStyle(
+                  fontSize: 15, fontWeight: FontWeight.bold
+              )) //DBから
         ],
       ),
       Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          Text('B高校'
+          Text('私立B高校',
+              style: TextStyle(
+                  fontSize: 15, fontWeight: FontWeight.bold
+              )
             ), //DBから
-          Text('2方式'), //DBから
-          Text('合格') //DBから
+          Text('B方式',
+              style: TextStyle(
+                  fontSize: 12,
+              )), //DBから
+          Text('合格',
+              style: TextStyle(
+                  fontSize: 15, fontWeight: FontWeight.bold
+              )) //DBから
           ],
       ),
      ],
@@ -74,9 +94,16 @@ class Subject extends StatelessWidget{
   Widget build(BuildContext context){
     return Center(
       child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-          Text('得意科目：'), //DBから
-          Text('国語'),
+          Text('得意科目：',
+              style: TextStyle(
+                  fontSize: 12, fontWeight: FontWeight.bold
+              )), //DBから
+          Text('国語、英語、社会',
+              style: TextStyle(
+                  fontSize: 12,
+              )),
         ]
     )
     );
@@ -88,12 +115,22 @@ class Impression extends StatelessWidget{
   Widget build(BuildContext context){
     return Container(
        child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        //crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          Text('感想',
-          //文字書式
+          Divider(
+            color: Color(0xff151280),
+            thickness: 1.0,
+            height: 1.0,
+            indent: 20,
+            endIndent: 20,
+          ),
+          Text('体験記',
+          style: TextStyle(fontSize: 12,fontWeight: FontWeight.bold),//文字書式
           ),
           Text('日程がタイトだった',
+              style: TextStyle(
+                  fontSize: 12,
+              )
           //文字書式
           )
         ]
