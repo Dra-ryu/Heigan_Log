@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:heiganlog/highschool_select.dart';
 import 'experience.dart';
 
 class ApplicationCombinationApp extends StatelessWidget {
@@ -7,6 +8,19 @@ class ApplicationCombinationApp extends StatelessWidget {
   ApplicationCombinationApp(this.selectedHighschool_1, this.selectedHighschool_2);
   String selectedHighschool_1;
   String selectedHighschool_2;
+  String name = "test";
+  List highschoolList = [
+    [
+      {
+        'name': '県立A高校',
+        'method': 'A方式',
+      },
+      {
+        'name': '県立B高校',
+        'method': 'B方式',
+      },
+    ]
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -38,7 +52,7 @@ class ApplicationCombinationApp extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: const [
                         Text(
-                          '〇〇〇〇高校',
+                          '県立A高校',
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 25,
@@ -47,7 +61,74 @@ class ApplicationCombinationApp extends StatelessWidget {
                         Padding(
                           padding: EdgeInsets.only(left: 30),
                           child: Text(
-                            '〇〇方式',
+                            'A方式',
+                            style: TextStyle(fontWeight: FontWeight.bold,
+                              fontSize: 20,
+                            ),
+                          ),
+                        ),
+                        Text(
+                          '県立B高校',
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 25,
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(left: 30),
+                          child: Text(
+                            'B方式',
+                            style: TextStyle(fontWeight: FontWeight.bold,
+                              fontSize: 20,
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(top: 20),
+                          child: button(),
+                        )
+                      ],
+                    ),
+                  ),
+                  color: Colors.indigo[100],
+                  elevation: 5,
+                ),
+              ),
+              Container(
+                margin: EdgeInsets.only(top: 30),
+                child: Card(
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(20, 20, 20, 20),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: const [
+                        Text(
+                          '県立A高校',
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 25,
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(left: 30),
+                          child: Text(
+                            'B方式',
+                            style: TextStyle(fontWeight: FontWeight.bold,
+                              fontSize: 20,
+                            ),
+                          ),
+                        ),
+                        Text(
+                          '県立B高校',
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 25,
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(left: 30),
+                          child: Text(
+                            'C方式',
                             style: TextStyle(fontWeight: FontWeight.bold,
                               fontSize: 20,
                             ),
