@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'highschool_select.dart';
 
 class TopPage extends StatefulWidget {
   static const String id = 'top_page'; //Top Pageに遷移するためのRoute
@@ -16,8 +17,8 @@ class _TopPageState extends State<TopPage> {
           backgroundColor: Color(0xFF151280),
         ),
         body: Container(
-            color: Colors.indigo[50],
-            padding: EdgeInsets.only(top: 7.0, left: 30.0, right: 30.0),
+          color: Colors.indigo[50],
+          padding: EdgeInsets.only(top: 7.0, left: 30.0, right: 30.0),
           child: Center(
             child: Column(
               children:<Widget> [
