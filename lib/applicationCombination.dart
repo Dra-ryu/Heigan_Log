@@ -89,7 +89,7 @@ class button extends StatelessWidget {
           onPressed: (){
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => MyApp()),
+              MaterialPageRoute(builder: (context) => ExperienceApp()),
             );
           },
           child: Text('体験記を見る')
