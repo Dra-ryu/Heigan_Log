@@ -73,9 +73,11 @@ class Subject extends StatelessWidget{
   Widget build(BuildContext context){
     return Center(
       child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
           Text('得意科目：'), //DBから
-          Text('国語'),
+          Text('国語、数学、理科、社会'),
         ]
     )
     );
@@ -87,7 +89,7 @@ class Impression extends StatelessWidget{
   Widget build(BuildContext context){
     return Container(
        child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        //crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text('感想',
           //文字書式
