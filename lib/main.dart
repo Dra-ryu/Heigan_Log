@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:heiganlog/top_page.dart';
-import 'highschool_select.dart';
 
 void main() {
   runApp(Heigan());
