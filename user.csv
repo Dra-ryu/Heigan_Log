@@ -1,0 +1,1001 @@
+user_ID,high_school,test_ID,impression,Pass_or_Fail,subject_s/he_is_good_at
+000000,4,"11,  41,  51",example0,pass,é–
+000001,2,"21,  32",example1,pass,êî
+000002,3,"15,  35",example2,pass,çë
+000003,3,"11,  34",example3,pass,çë
+000004,2,"23,  52",example4,pass,óù
+000005,2,23,example5,pass,óù
+000006,1,"14,  52",example6,pass,âp
+000007,5,"33,  51",example7,pass,çë
+000008,1,11,example8,pass,çë
+000009,2,22,example9,pass,çë
+000010,1,15,example10,pass,âp
+000011,3,31,example11,pass,çë
+000012,1,"11,  31",example12,pass,çë
+000013,1,"14,  34",example13,pass,é–
+000014,3,"13,  33",example14,pass,óù
+000015,3,"23,  32",example15,pass,é–
+000016,2,22,example16,pass,é–
+000017,1,"11,  34",example17,pass,é–
+000018,3,"11,  31",example18,pass,é–
+000019,1,12,example19,pass,é–
+000020,1,"13,  31",example20,pass,âp
+000021,2,21,example21,pass,âp
+000022,1,"16,  52",example22,pass,é–
+000023,1,16,example23,pass,çë
+000024,3,"11,  31",example24,pass,âp
+000025,2,"22,  52",example25,pass,é–
+000026,2,"21,  34",example26,pass,óù
+000027,2,24,example27,pass,é–
+000028,3,"23,  34",example28,pass,çë
+000029,3,"23,  34",example29,pass,âp
+000030,3,34,example30,pass,óù
+000031,3,35,example31,pass,âp
+000032,1,"14,  32",example32,pass,é–
+000033,1,"11,  31",example33,pass,óù
+000034,3,34,example34,pass,êî
+000035,5,"11,  33,  52",example35,pass,é–
+000036,3,35,example36,pass,óù
+000037,1,"13,  35",example37,pass,âp
+000038,4,"16,  41",example38,pass,çë
+000039,3,31,example39,pass,êî
+000040,5,52,example40,pass,é–
+000041,3,35,example41,pass,çë
+000042,2,"21,  52",example42,pass,çë
+000043,5,51,example43,pass,êî
+000044,2,24,example44,pass,âp
+000045,2,"24,  51",example45,pass,é–
+000046,3,"15,  31",example46,pass,é–
+000047,3,"35,  51",example47,pass,é–
+000048,4,41,example48,pass,é–
+000049,3,33,example49,pass,âp
+000050,3,"22,  33",example50,pass,óù
+000051,2,21,example51,pass,óù
+000052,1,16,example52,pass,çë
+000053,1,16,example53,pass,é–
+000054,1,"12,  32",example54,pass,é–
+000055,1,11,example55,pass,é–
+000056,2,"22,  33",example56,pass,óù
+000057,2,"21,  34",example57,pass,êî
+000058,3,31,example58,pass,çë
+000059,3,34,example59,pass,óù
+000060,5,51,example60,pass,óù
+000061,1,14,example61,pass,çë
+000062,1,"15,  34",example62,pass,âp
+000063,1,13,example63,pass,çë
+000064,1,15,example64,pass,êî
+000065,3,"23,  35",example65,pass,âp
+000066,3,"13,  35",example66,pass,êî
+000067,2,23,example67,pass,êî
+000068,1,16,example68,pass,âp
+000069,2,21,example69,pass,é–
+000070,3,"14,  35",example70,pass,çë
+000071,1,11,example71,pass,çë
+000072,1,16,example72,pass,é–
+000073,3,35,example73,pass,âp
+000074,2,"23,  32",example74,pass,âp
+000075,1,13,example75,pass,é–
+000076,3,"33,  52",example76,pass,çë
+000077,2,24,example77,pass,óù
+000078,3,"16,  31",example78,pass,êî
+000079,3,"23,  31,  51",example79,pass,óù
+000080,3,"34,  51",example80,pass,âp
+000081,1,15,example81,pass,êî
+000082,3,33,example82,pass,âp
+000083,1,"15,  41",example83,pass,êî
+000084,1,16,example84,pass,âp
+000085,3,32,example85,pass,óù
+000086,4,41,example86,pass,çë
+000087,1,14,example87,pass,êî
+000088,2,21,example88,pass,êî
+000089,5,52,example89,pass,êî
+000090,2,23,example90,pass,çë
+000091,3,34,example91,pass,çë
+000092,1,14,example92,pass,âp
+000093,1,11,example93,pass,êî
+000094,2,"21,  31",example94,pass,óù
+000095,1,15,example95,pass,é–
+000096,2,"22,  31",example96,pass,çë
+000097,2,"22,  33",example97,pass,óù
+000098,1,16,example98,pass,óù
+000099,2,"21,  33",example99,pass,êî
+000100,5,52,example100,pass,êî
+000101,3,34,example101,pass,âp
+000102,3,32,example102,pass,âp
+000103,3,32,example103,pass,çë
+000104,1,"13,  34",example104,pass,êî
+000105,5,51,example105,pass,çë
+000106,2,21,example106,pass,âp
+000107,2,"22,  35",example107,pass,êî
+000108,1,"13,  51",example108,pass,é–
+000109,3,"12,  32",example109,pass,çë
+000110,1,15,example110,pass,âp
+000111,2,22,example111,pass,çë
+000112,1,13,example112,pass,êî
+000113,1,11,example113,pass,é–
+000114,2,24,example114,pass,é–
+000115,2,21,example115,pass,çë
+000116,2,"21,  52",example116,pass,óù
+000117,1,13,example117,pass,âp
+000118,1,12,example118,pass,âp
+000119,2,"23,  32",example119,pass,âp
+000120,1,11,example120,pass,çë
+000121,1,"14,  35",example121,pass,é–
+000122,1,"11,  34",example122,pass,óù
+000123,1,11,example123,pass,çë
+000124,1,12,example124,pass,óù
+000125,3,"14,  34",example125,pass,êî
+000126,1,11,example126,pass,çë
+000127,2,"24,  35",example127,pass,âp
+000128,3,35,example128,pass,êî
+000129,1,15,example129,pass,çë
+000130,3,31,example130,pass,çë
+000131,3,"16,  32",example131,pass,çë
+000132,2,22,example132,pass,êî
+000133,1,16,example133,pass,êî
+000134,1,11,example134,pass,âp
+000135,3,35,example135,pass,óù
+000136,1,"16,  51",example136,pass,óù
+000137,1,12,example137,pass,é–
+000138,4,"12,  41",example138,pass,çë
+000139,3,34,example139,pass,óù
+000140,1,"15,  33",example140,pass,óù
+000141,1,14,example141,pass,çë
+000142,3,"11,  32",example142,pass,é–
+000143,2,21,example143,pass,çë
+000144,2,21,example144,pass,çë
+000145,3,"11,  31",example145,pass,çë
+000146,5,"21,  33,  51",example146,pass,âp
+000147,2,22,example147,pass,êî
+000148,1,16,example148,pass,é–
+000149,1,"12,  35",example149,pass,âp
+000150,1,11,example150,pass,óù
+000151,5,"12,  52",example151,pass,êî
+000152,2,"24,  35",example152,pass,óù
+000153,3,"11,  35",example153,pass,é–
+000154,2,"23,  34",example154,pass,çë
+000155,3,"16,  31",example155,pass,êî
+000156,3,"24,  31",example156,pass,êî
+000157,3,"12,  35",example157,pass,âp
+000158,1,12,example158,pass,çë
+000159,5,"22,  51",example159,pass,âp
+000160,2,22,example160,pass,óù
+000161,3,"13,  32",example161,pass,çë
+000162,1,"13,  31",example162,pass,óù
+000163,3,"14,  34",example163,pass,é–
+000164,2,23,example164,pass,é–
+000165,2,24,example165,pass,é–
+000166,2,"22,  32",example166,pass,óù
+000167,1,11,example167,pass,çë
+000168,4,41,example168,pass,çë
+000169,3,"13,  32",example169,pass,êî
+000170,5,52,example170,pass,çë
+000171,1,11,example171,pass,é–
+000172,3,"13,  32",example172,pass,âp
+000173,2,24,example173,pass,êî
+000174,3,"16,  32",example174,pass,é–
+000175,3,"23,  31",example175,pass,óù
+000176,2,"23,  32",example176,pass,êî
+000177,3,31,example177,pass,é–
+000178,3,"21,  33",example178,pass,êî
+000179,2,"21,  31",example179,pass,óù
+000180,3,"14,  31",example180,pass,é–
+000181,2,"24,  31",example181,pass,é–
+000182,3,34,example182,pass,óù
+000183,1,"13,  31",example183,pass,êî
+000184,2,23,example184,pass,âp
+000185,2,"21,  32",example185,pass,é–
+000186,3,"15,  34",example186,pass,âp
+000187,1,13,example187,pass,çë
+000188,2,23,example188,pass,óù
+000189,1,15,example189,pass,çë
+000190,1,"14,  34",example190,pass,âp
+000191,4,"15,  41",example191,pass,é–
+000192,2,21,example192,pass,óù
+000193,1,"15,  31",example193,pass,êî
+000194,1,14,example194,pass,êî
+000195,3,"31,  51",example195,pass,é–
+000196,2,21,example196,pass,é–
+000197,1,11,example197,pass,âp
+000198,2,21,example198,pass,óù
+000199,2,21,example199,pass,êî
+000200,5,"15,  34,  52",example200,pass,âp
+000201,1,"11,  52",example201,pass,âp
+000202,1,15,example202,pass,êî
+000203,2,22,example203,pass,êî
+000204,3,34,example204,pass,êî
+000205,4,41,example205,pass,çë
+000206,2,"21,  34",example206,pass,óù
+000207,1,15,example207,pass,êî
+000208,3,35,example208,pass,çë
+000209,5,"14,  51",example209,pass,âp
+000210,2,24,example210,pass,çë
+000211,4,"12,  41",example211,pass,çë
+000212,1,12,example212,pass,óù
+000213,2,24,example213,pass,é–
+000214,2,"24,  41",example214,pass,çë
+000215,1,11,example215,pass,âp
+000216,4,41,example216,pass,êî
+000217,1,14,example217,pass,âp
+000218,3,"23,  31",example218,pass,é–
+000219,2,"23,  35",example219,pass,óù
+000220,1,"15,  31,  51",example220,pass,âp
+000221,3,31,example221,pass,çë
+000222,1,13,example222,pass,âp
+000223,4,"41,  51",example223,pass,çë
+000224,5,"41,  52",example224,pass,çë
+000225,1,13,example225,pass,é–
+000226,1,12,example226,pass,óù
+000227,3,32,example227,pass,é–
+000228,3,"23,  34",example228,pass,çë
+000229,1,"12,  35",example229,pass,óù
+000230,2,24,example230,pass,êî
+000231,1,"14,  41",example231,pass,êî
+000232,3,34,example232,pass,é–
+000233,2,24,example233,pass,óù
+000234,3,35,example234,pass,é–
+000235,3,"16,  35",example235,pass,êî
+000236,5,"12,  52",example236,pass,êî
+000237,5,"12,  32,  52",example237,pass,êî
+000238,2,22,example238,pass,óù
+000239,3,"21,  33",example239,pass,é–
+000240,3,31,example240,pass,âp
+000241,3,32,example241,pass,êî
+000242,3,34,example242,pass,çë
+000243,2,21,example243,pass,é–
+000244,3,"11,  35",example244,pass,é–
+000245,1,11,example245,pass,óù
+000246,1,15,example246,pass,êî
+000247,3,"22,  35",example247,pass,óù
+000248,1,11,example248,pass,êî
+000249,3,"31,  52",example249,pass,âp
+000250,5,52,example250,pass,óù
+000251,2,22,example251,pass,êî
+000252,5,"15,  51",example252,pass,é–
+000253,1,15,example253,pass,êî
+000254,3,"15,  33",example254,pass,âp
+000255,1,16,example255,pass,âp
+000256,1,"14,  32",example256,pass,óù
+000257,5,"11,  51",example257,pass,é–
+000258,3,32,example258,pass,óù
+000259,5,52,example259,pass,êî
+000260,2,22,example260,pass,é–
+000261,4,"14,  41",example261,pass,çë
+000262,4,"11,  41",example262,pass,é–
+000263,1,"11,  34",example263,pass,êî
+000264,3,35,example264,pass,âp
+000265,3,32,example265,pass,âp
+000266,2,21,example266,pass,âp
+000267,3,"14,  35",example267,pass,âp
+000268,4,"12,  41",example268,pass,óù
+000269,1,13,example269,pass,âp
+000270,1,"11,  35",example270,pass,é–
+000271,2,23,example271,pass,âp
+000272,4,41,example272,pass,óù
+000273,3,31,example273,pass,óù
+000274,3,31,example274,pass,óù
+000275,4,"15,  41",example275,pass,é–
+000276,5,51,example276,pass,âp
+000277,2,"21,  35",example277,pass,êî
+000278,1,15,example278,pass,é–
+000279,2,"24,  51",example279,pass,óù
+000280,4,41,example280,pass,êî
+000281,4,"12,  41",example281,pass,êî
+000282,2,"21,  31",example282,pass,êî
+000283,1,"16,  52",example283,pass,êî
+000284,1,11,example284,pass,êî
+000285,5,"41,  51",example285,pass,âp
+000286,2,24,example286,pass,âp
+000287,5,51,example287,pass,é–
+000288,1,12,example288,pass,çë
+000289,1,"11,  33",example289,pass,çë
+000290,1,"12,  35",example290,pass,óù
+000291,2,21,example291,pass,êî
+000292,3,"16,  33",example292,pass,êî
+000293,1,14,example293,pass,é–
+000294,1,14,example294,pass,é–
+000295,3,"24,  32",example295,pass,é–
+000296,3,"34,  52",example296,pass,êî
+000297,2,22,example297,pass,é–
+000298,2,22,example298,pass,é–
+000299,5,52,example299,pass,çë
+000300,1,12,example300,pass,é–
+000301,2,22,example301,pass,êî
+000302,3,32,example302,pass,óù
+000303,1,"11,  52",example303,pass,é–
+000304,3,"16,  32",example304,pass,êî
+000305,3,"21,  31",example305,pass,êî
+000306,2,23,example306,pass,âp
+000307,2,"23,  31",example307,pass,êî
+000308,1,"15,  52",example308,pass,çë
+000309,3,34,example309,pass,âp
+000310,5,51,example310,pass,óù
+000311,3,31,example311,pass,é–
+000312,1,13,example312,pass,óù
+000313,3,34,example313,pass,êî
+000314,3,"13,  34",example314,pass,çë
+000315,1,13,example315,pass,óù
+000316,1,"14,  31",example316,pass,óù
+000317,1,"15,  35",example317,pass,é–
+000318,1,14,example318,pass,çë
+000319,1,11,example319,pass,óù
+000320,5,"31,  51",example320,pass,êî
+000321,2,23,example321,pass,óù
+000322,1,12,example322,pass,é–
+000323,5,"15,  51",example323,pass,óù
+000324,1,14,example324,pass,âp
+000325,3,"23,  32",example325,pass,é–
+000326,1,12,example326,pass,çë
+000327,3,34,example327,pass,âp
+000328,1,"12,  33",example328,pass,óù
+000329,2,21,example329,pass,óù
+000330,3,"16,  31",example330,pass,é–
+000331,3,"11,  35",example331,pass,óù
+000332,3,"14,  31",example332,pass,âp
+000333,2,"22,  35",example333,pass,âp
+000334,1,"12,  35",example334,pass,é–
+000335,3,35,example335,pass,é–
+000336,2,22,example336,pass,âp
+000337,1,16,example337,pass,êî
+000338,4,41,example338,pass,âp
+000339,3,"16,  32",example339,pass,çë
+000340,3,31,example340,pass,êî
+000341,2,"21,  33",example341,pass,êî
+000342,3,"24,  35",example342,pass,âp
+000343,1,"15,  34",example343,pass,óù
+000344,1,12,example344,pass,óù
+000345,3,"34,  51",example345,pass,êî
+000346,4,"15,  41",example346,pass,çë
+000347,2,23,example347,pass,çë
+000348,1,11,example348,pass,é–
+000349,2,21,example349,pass,êî
+000350,5,51,example350,pass,çë
+000351,2,"21,  31",example351,pass,çë
+000352,1,12,example352,pass,âp
+000353,1,16,example353,pass,é–
+000354,3,"11,  35",example354,pass,óù
+000355,5,"15,  51",example355,pass,çë
+000356,1,11,example356,pass,çë
+000357,3,"33,  51",example357,pass,âp
+000358,3,"24,  33,  51",example358,pass,êî
+000359,3,"22,  35",example359,pass,êî
+000360,1,"11,  31",example360,pass,é–
+000361,1,"13,  35",example361,pass,êî
+000362,1,14,example362,pass,çë
+000363,1,12,example363,pass,é–
+000364,2,"21,  34",example364,pass,êî
+000365,4,"13,  41",example365,pass,êî
+000366,1,13,example366,pass,âp
+000367,1,16,example367,pass,é–
+000368,1,"12,  32",example368,pass,âp
+000369,2,"23,  32",example369,pass,êî
+000370,1,"13,  41",example370,pass,çë
+000371,1,"12,  32,  52",example371,pass,óù
+000372,3,32,example372,pass,âp
+000373,3,"24,  35",example373,pass,óù
+000374,1,"11,  35",example374,pass,âp
+000375,1,15,example375,pass,é–
+000376,1,13,example376,pass,çë
+000377,1,14,example377,pass,êî
+000378,1,16,example378,pass,çë
+000379,1,"16,  35",example379,pass,âp
+000380,3,"12,  34,  52",example380,pass,êî
+000381,3,33,example381,pass,êî
+000382,2,"24,  34",example382,pass,óù
+000383,2,"22,  35",example383,pass,óù
+000384,3,"11,  35",example384,pass,é–
+000385,2,"24,  31",example385,pass,óù
+000386,3,31,example386,pass,é–
+000387,2,21,example387,pass,é–
+000388,2,"22,  51",example388,pass,óù
+000389,2,"23,  35,  51",example389,pass,óù
+000390,3,33,example390,pass,êî
+000391,4,"23,  41",example391,pass,é–
+000392,1,16,example392,pass,âp
+000393,3,"15,  34",example393,pass,é–
+000394,2,"23,  41",example394,pass,é–
+000395,1,11,example395,pass,êî
+000396,2,"22,  35",example396,pass,çë
+000397,1,"16,  41",example397,pass,é–
+000398,2,24,example398,pass,êî
+000399,1,13,example399,pass,âp
+000400,1,14,example400,pass,é–
+000401,1,"14,  52",example401,pass,óù
+000402,1,15,example402,pass,êî
+000403,1,12,example403,pass,âp
+000404,2,23,example404,pass,êî
+000405,3,"16,  35",example405,pass,êî
+000406,1,14,example406,pass,êî
+000407,3,34,example407,pass,âp
+000408,2,23,example408,pass,çë
+000409,2,22,example409,pass,çë
+000410,5,"11,  51",example410,pass,êî
+000411,2,21,example411,pass,çë
+000412,5,"13,  51",example412,pass,âp
+000413,1,15,example413,pass,óù
+000414,2,22,example414,pass,é–
+000415,3,"34,  51",example415,pass,çë
+000416,1,15,example416,pass,óù
+000417,3,"16,  31",example417,pass,âp
+000418,1,13,example418,pass,êî
+000419,2,23,example419,pass,óù
+000420,3,32,example420,pass,é–
+000421,3,32,example421,pass,óù
+000422,1,"12,  41",example422,pass,çë
+000423,4,"21,  41",example423,pass,âp
+000424,3,"22,  35",example424,pass,é–
+000425,2,24,example425,pass,çë
+000426,2,23,example426,pass,âp
+000427,1,"15,  34",example427,pass,çë
+000428,1,"15,  32",example428,pass,âp
+000429,5,52,example429,pass,âp
+000430,1,11,example430,pass,óù
+000431,2,"24,  41,  52",example431,pass,çë
+000432,5,52,example432,pass,âp
+000433,1,"13,  51",example433,pass,êî
+000434,2,"24,  34",example434,pass,óù
+000435,1,15,example435,pass,é–
+000436,3,"12,  33,  52",example436,pass,çë
+000437,3,"33,  51",example437,pass,êî
+000438,5,51,example438,pass,óù
+000439,3,32,example439,pass,çë
+000440,3,"16,  34",example440,pass,é–
+000441,1,12,example441,pass,êî
+000442,2,"24,  31",example442,pass,óù
+000443,3,34,example443,pass,é–
+000444,1,"13,  33",example444,pass,óù
+000445,4,41,example445,pass,çë
+000446,4,41,example446,pass,é–
+000447,5,51,example447,pass,êî
+000448,1,15,example448,pass,çë
+000449,3,"23,  34",example449,pass,êî
+000450,1,"12,  35",example450,pass,óù
+000451,2,23,example451,pass,çë
+000452,3,33,example452,pass,çë
+000453,3,"33,  52",example453,pass,êî
+000454,3,"11,  35,  52",example454,pass,êî
+000455,2,"22,  32",example455,pass,êî
+000456,2,22,example456,pass,óù
+000457,2,22,example457,pass,é–
+000458,2,22,example458,pass,é–
+000459,1,14,example459,pass,óù
+000460,3,"22,  32",example460,pass,âp
+000461,2,"22,  41",example461,pass,êî
+000462,2,24,example462,pass,é–
+000463,5,"34,  52",example463,pass,âp
+000464,5,"35,  51",example464,pass,é–
+000465,3,"15,  33",example465,pass,âp
+000466,3,"14,  33",example466,pass,âp
+000467,3,31,example467,pass,óù
+000468,1,14,example468,pass,êî
+000469,1,13,example469,pass,óù
+000470,5,"12,  52",example470,pass,é–
+000471,1,13,example471,pass,óù
+000472,1,"11,  33",example472,pass,êî
+000473,3,"12,  32",example473,pass,çë
+000474,3,"34,  51",example474,pass,âp
+000475,1,12,example475,pass,âp
+000476,1,14,example476,pass,âp
+000477,5,"14,  51",example477,pass,é–
+000478,3,"11,  31",example478,pass,óù
+000479,1,12,example479,pass,çë
+000480,2,"22,  33",example480,pass,é–
+000481,1,"16,  41",example481,pass,âp
+000482,3,32,example482,pass,âp
+000483,5,52,example483,pass,é–
+000484,2,"21,  41",example484,pass,çë
+000485,2,23,example485,pass,êî
+000486,1,"14,  35",example486,pass,çë
+000487,3,33,example487,pass,êî
+000488,3,32,example488,pass,é–
+000489,2,"24,  31",example489,pass,é–
+000490,2,"24,  51",example490,pass,êî
+000491,3,"13,  34",example491,pass,óù
+000492,2,22,example492,pass,çë
+000493,4,"22,  41",example493,pass,êî
+000494,2,22,example494,pass,é–
+000495,5,52,example495,pass,êî
+000496,1,"12,  34",example496,pass,âp
+000497,3,"14,  34",example497,pass,âp
+000498,3,35,example498,pass,âp
+000499,1,16,example499,pass,çë
+000500,1,"14,  31",example500,pass,çë
+000501,2,23,example501,pass,çë
+000502,5,52,example502,pass,âp
+000503,2,21,example503,pass,çë
+000504,1,16,example504,pass,âp
+000505,1,"11,  34",example505,pass,âp
+000506,3,"11,  31",example506,pass,âp
+000507,2,23,example507,pass,é–
+000508,1,"14,  41,  51",example508,pass,óù
+000509,3,"24,  32",example509,pass,âp
+000510,1,"11,  33",example510,pass,âp
+000511,1,"16,  52",example511,pass,óù
+000512,2,"22,  32",example512,pass,çë
+000513,3,"33,  51",example513,pass,âp
+000514,5,"33,  51",example514,pass,óù
+000515,3,33,example515,pass,êî
+000516,1,"13,  33",example516,pass,êî
+000517,2,22,example517,pass,êî
+000518,1,"16,  52",example518,pass,óù
+000519,1,"15,  51",example519,pass,çë
+000520,1,"12,  51",example520,pass,é–
+000521,1,16,example521,pass,óù
+000522,1,15,example522,pass,âp
+000523,1,"14,  35",example523,pass,óù
+000524,1,"11,  51",example524,pass,é–
+000525,3,32,example525,pass,óù
+000526,1,15,example526,pass,âp
+000527,5,"14,  52",example527,pass,âp
+000528,3,"22,  33",example528,pass,âp
+000529,3,34,example529,pass,óù
+000530,1,"13,  35",example530,pass,é–
+000531,3,32,example531,pass,çë
+000532,5,"41,  51",example532,pass,óù
+000533,3,"11,  34",example533,pass,é–
+000534,1,13,example534,pass,âp
+000535,1,11,example535,pass,çë
+000536,2,21,example536,pass,çë
+000537,2,24,example537,pass,çë
+000538,1,"16,  41",example538,pass,êî
+000539,1,12,example539,pass,êî
+000540,1,"16,  41",example540,pass,êî
+000541,5,"23,  52",example541,pass,êî
+000542,1,14,example542,pass,çë
+000543,2,"23,  52",example543,pass,çë
+000544,3,31,example544,pass,âp
+000545,1,"13,  31",example545,pass,çë
+000546,2,21,example546,pass,êî
+000547,1,15,example547,pass,âp
+000548,2,23,example548,pass,êî
+000549,3,32,example549,pass,çë
+000550,1,16,example550,pass,é–
+000551,3,31,example551,pass,óù
+000552,3,"14,  32",example552,pass,óù
+000553,1,"14,  33",example553,pass,çë
+000554,5,"22,  51",example554,pass,âp
+000555,1,"14,  41",example555,pass,é–
+000556,5,"13,  31,  51",example556,pass,âp
+000557,3,"24,  32",example557,pass,é–
+000558,4,41,example558,pass,êî
+000559,4,"12,  41",example559,pass,âp
+000560,3,31,example560,pass,âp
+000561,3,33,example561,pass,é–
+000562,1,"13,  51",example562,pass,âp
+000563,2,"24,  52",example563,pass,êî
+000564,1,11,example564,pass,êî
+000565,5,"16,  32,  51",example565,pass,âp
+000566,2,24,example566,pass,âp
+000567,1,13,example567,pass,çë
+000568,4,"15,  41",example568,pass,é–
+000569,3,"15,  33",example569,pass,âp
+000570,5,"24,  34,  51",example570,pass,é–
+000571,3,35,example571,pass,âp
+000572,5,"22,  52",example572,pass,êî
+000573,1,"16,  34",example573,pass,çë
+000574,1,"12,  33",example574,pass,âp
+000575,4,"23,  41",example575,pass,âp
+000576,1,16,example576,pass,óù
+000577,3,"16,  31",example577,pass,çë
+000578,2,"24,  51",example578,pass,é–
+000579,3,35,example579,pass,êî
+000580,2,22,example580,pass,çë
+000581,1,"11,  52",example581,pass,çë
+000582,3,"24,  35",example582,pass,é–
+000583,3,31,example583,pass,óù
+000584,3,33,example584,pass,é–
+000585,3,33,example585,pass,êî
+000586,1,"13,  35",example586,pass,âp
+000587,1,13,example587,pass,é–
+000588,2,22,example588,pass,êî
+000589,1,14,example589,pass,é–
+000590,3,33,example590,pass,óù
+000591,1,"16,  33",example591,pass,êî
+000592,2,22,example592,pass,óù
+000593,2,"22,  33",example593,pass,âp
+000594,5,52,example594,pass,çë
+000595,3,32,example595,pass,âp
+000596,3,"33,  52",example596,pass,óù
+000597,2,"23,  51",example597,pass,êî
+000598,3,"14,  31",example598,pass,óù
+000599,3,31,example599,pass,êî
+000600,1,"15,  52",example600,pass,êî
+000601,1,"11,  41",example601,pass,óù
+000602,3,"23,  33,  52",example602,pass,çë
+000603,1,13,example603,pass,êî
+000604,1,13,example604,pass,é–
+000605,2,22,example605,pass,êî
+000606,3,"14,  34",example606,pass,êî
+000607,4,"11,  41",example607,pass,é–
+000608,1,15,example608,pass,óù
+000609,1,13,example609,pass,é–
+000610,4,41,example610,pass,êî
+000611,4,"11,  41",example611,pass,âp
+000612,4,"13,  41",example612,pass,çë
+000613,1,13,example613,pass,óù
+000614,1,11,example614,pass,óù
+000615,4,41,example615,pass,çë
+000616,3,"33,  52",example616,pass,âp
+000617,3,"13,  34",example617,pass,âp
+000618,1,12,example618,pass,âp
+000619,1,16,example619,pass,âp
+000620,3,35,example620,pass,çë
+000621,3,31,example621,pass,çë
+000622,3,31,example622,pass,êî
+000623,3,32,example623,pass,é–
+000624,5,"21,  33,  52",example624,pass,óù
+000625,3,"23,  31",example625,pass,óù
+000626,1,13,example626,pass,âp
+000627,3,"15,  31",example627,pass,óù
+000628,1,"16,  51",example628,pass,óù
+000629,2,22,example629,pass,é–
+000630,1,12,example630,pass,êî
+000631,3,"14,  32",example631,pass,êî
+000632,1,16,example632,pass,êî
+000633,1,11,example633,pass,âp
+000634,1,15,example634,pass,êî
+000635,3,"14,  32",example635,pass,é–
+000636,2,"23,  33",example636,pass,êî
+000637,3,"12,  35",example637,pass,çë
+000638,2,"21,  35",example638,pass,êî
+000639,3,34,example639,pass,êî
+000640,2,22,example640,pass,óù
+000641,2,21,example641,pass,âp
+000642,5,51,example642,pass,é–
+000643,3,35,example643,pass,óù
+000644,3,32,example644,pass,êî
+000645,1,"13,  35",example645,pass,çë
+000646,3,34,example646,pass,çë
+000647,1,11,example647,pass,óù
+000648,1,13,example648,pass,âp
+000649,2,"21,  33",example649,pass,êî
+000650,3,"11,  35",example650,pass,âp
+000651,2,"21,  41",example651,pass,êî
+000652,4,"41,  51",example652,pass,é–
+000653,1,13,example653,pass,âp
+000654,1,"12,  34",example654,pass,êî
+000655,5,51,example655,pass,óù
+000656,2,"21,  34",example656,pass,çë
+000657,2,21,example657,pass,êî
+000658,1,15,example658,pass,é–
+000659,3,"23,  35",example659,pass,çë
+000660,1,14,example660,pass,óù
+000661,1,16,example661,pass,âp
+000662,3,34,example662,pass,êî
+000663,1,"16,  34",example663,pass,óù
+000664,1,"11,  52",example664,pass,é–
+000665,2,"21,  34",example665,pass,êî
+000666,5,"31,  52",example666,pass,âp
+000667,3,"23,  31",example667,pass,é–
+000668,1,11,example668,pass,é–
+000669,1,15,example669,pass,âp
+000670,3,"24,  34",example670,pass,óù
+000671,1,16,example671,pass,çë
+000672,3,"23,  33",example672,pass,óù
+000673,1,13,example673,pass,êî
+000674,2,23,example674,pass,çë
+000675,3,31,example675,pass,âp
+000676,2,24,example676,pass,êî
+000677,2,24,example677,pass,é–
+000678,1,"16,  41",example678,pass,é–
+000679,5,"21,  34,  51",example679,pass,çë
+000680,1,"16,  31",example680,pass,âp
+000681,3,"22,  35",example681,pass,é–
+000682,1,"15,  41",example682,pass,êî
+000683,3,32,example683,pass,êî
+000684,1,11,example684,pass,êî
+000685,2,24,example685,pass,çë
+000686,2,22,example686,pass,êî
+000687,3,"15,  35,  52",example687,pass,çë
+000688,3,32,example688,pass,é–
+000689,2,"22,  32",example689,pass,êî
+000690,3,"15,  33,  51",example690,pass,óù
+000691,3,33,example691,pass,é–
+000692,1,11,example692,pass,âp
+000693,3,35,example693,pass,êî
+000694,3,"13,  35",example694,pass,óù
+000695,3,32,example695,pass,é–
+000696,4,"11,  41",example696,pass,é–
+000697,3,31,example697,pass,êî
+000698,1,16,example698,pass,êî
+000699,1,15,example699,pass,óù
+000700,5,"13,  52",example700,pass,âp
+000701,5,"16,  51",example701,pass,âp
+000702,2,"22,  33,  52",example702,pass,é–
+000703,3,"16,  32",example703,pass,é–
+000704,3,32,example704,pass,êî
+000705,3,"32,  52",example705,pass,êî
+000706,3,"16,  32",example706,pass,êî
+000707,2,"24,  41,  51",example707,pass,âp
+000708,1,"12,  41",example708,pass,óù
+000709,3,"11,  32",example709,pass,é–
+000710,5,"12,  52",example710,pass,êî
+000711,4,"11,  41",example711,pass,óù
+000712,3,35,example712,pass,çë
+000713,2,22,example713,pass,âp
+000714,3,"13,  33",example714,pass,çë
+000715,2,"23,  33",example715,pass,âp
+000716,3,"31,  52",example716,pass,âp
+000717,2,"21,  35",example717,pass,é–
+000718,3,"21,  35",example718,pass,çë
+000719,3,"23,  31",example719,pass,óù
+000720,1,13,example720,pass,êî
+000721,1,16,example721,pass,é–
+000722,1,13,example722,pass,êî
+000723,2,"21,  32",example723,pass,óù
+000724,2,"22,  34",example724,pass,óù
+000725,3,"14,  33",example725,pass,óù
+000726,1,16,example726,pass,é–
+000727,4,41,example727,pass,óù
+000728,1,12,example728,pass,çë
+000729,2,22,example729,pass,âp
+000730,3,32,example730,pass,é–
+000731,5,51,example731,pass,êî
+000732,2,"22,  32,  51",example732,pass,çë
+000733,5,"16,  52",example733,pass,êî
+000734,3,"24,  31",example734,pass,çë
+000735,3,"23,  31",example735,pass,êî
+000736,2,21,example736,pass,çë
+000737,5,"11,  52",example737,pass,óù
+000738,1,"11,  33",example738,pass,âp
+000739,2,21,example739,pass,êî
+000740,2,"23,  31",example740,pass,âp
+000741,3,"12,  32",example741,pass,óù
+000742,3,34,example742,pass,âp
+000743,5,"32,  51",example743,pass,âp
+000744,2,"23,  34",example744,pass,êî
+000745,1,"12,  35",example745,pass,âp
+000746,2,"21,  41",example746,pass,óù
+000747,3,"13,  31",example747,pass,çë
+000748,2,24,example748,pass,óù
+000749,3,"21,  35",example749,pass,óù
+000750,3,"22,  34,  51",example750,pass,êî
+000751,2,"21,  34",example751,pass,çë
+000752,2,24,example752,pass,âp
+000753,5,"21,  51",example753,pass,êî
+000754,2,21,example754,pass,óù
+000755,4,"41,  52",example755,pass,é–
+000756,3,35,example756,pass,âp
+000757,2,23,example757,pass,êî
+000758,1,14,example758,pass,âp
+000759,2,"22,  33",example759,pass,âp
+000760,3,"23,  32",example760,pass,êî
+000761,3,"23,  33",example761,pass,çë
+000762,3,"16,  34",example762,pass,çë
+000763,1,11,example763,pass,êî
+000764,5,51,example764,pass,âp
+000765,1,"11,  31",example765,pass,óù
+000766,2,23,example766,pass,é–
+000767,3,"16,  32",example767,pass,êî
+000768,3,34,example768,pass,êî
+000769,1,"12,  34",example769,pass,é–
+000770,4,"11,  41",example770,pass,çë
+000771,2,23,example771,pass,óù
+000772,2,23,example772,pass,é–
+000773,1,13,example773,pass,é–
+000774,3,"15,  32",example774,pass,óù
+000775,2,24,example775,pass,êî
+000776,2,"24,  51",example776,pass,é–
+000777,1,"11,  31",example777,pass,êî
+000778,3,"22,  32",example778,pass,óù
+000779,5,"41,  51",example779,pass,é–
+000780,3,31,example780,pass,óù
+000781,2,21,example781,pass,óù
+000782,3,31,example782,pass,óù
+000783,2,22,example783,pass,çë
+000784,3,"13,  31",example784,pass,âp
+000785,1,15,example785,pass,é–
+000786,2,23,example786,pass,é–
+000787,3,"21,  33",example787,pass,é–
+000788,2,"23,  33",example788,pass,óù
+000789,3,"15,  32",example789,pass,âp
+000790,3,"23,  31",example790,pass,êî
+000791,1,"15,  31",example791,pass,âp
+000792,3,"34,  52",example792,pass,êî
+000793,2,24,example793,pass,êî
+000794,2,22,example794,pass,êî
+000795,4,"24,  41",example795,pass,óù
+000796,1,14,example796,pass,é–
+000797,1,12,example797,pass,óù
+000798,4,"11,  41",example798,pass,çë
+000799,3,34,example799,pass,é–
+000800,2,24,example800,pass,é–
+000801,1,"16,  52",example801,pass,âp
+000802,2,24,example802,pass,âp
+000803,1,15,example803,pass,âp
+000804,1,11,example804,pass,çë
+000805,2,21,example805,pass,çë
+000806,1,"12,  33",example806,pass,êî
+000807,1,14,example807,pass,âp
+000808,3,34,example808,pass,çë
+000809,2,21,example809,pass,êî
+000810,3,"21,  34",example810,pass,óù
+000811,2,23,example811,pass,âp
+000812,1,12,example812,pass,çë
+000813,1,"16,  51",example813,pass,óù
+000814,3,"21,  33",example814,pass,êî
+000815,3,33,example815,pass,óù
+000816,2,21,example816,pass,êî
+000817,1,13,example817,pass,é–
+000818,1,"13,  33",example818,pass,çë
+000819,3,"15,  35",example819,pass,é–
+000820,1,14,example820,pass,âp
+000821,3,35,example821,pass,çë
+000822,3,34,example822,pass,êî
+000823,2,23,example823,pass,âp
+000824,1,"16,  31",example824,pass,é–
+000825,3,"14,  35",example825,pass,çë
+000826,2,22,example826,pass,êî
+000827,1,"11,  31",example827,pass,óù
+000828,5,"13,  52",example828,pass,çë
+000829,1,13,example829,pass,êî
+000830,5,"24,  51",example830,pass,çë
+000831,2,"22,  31",example831,pass,çë
+000832,3,"21,  33,  52",example832,pass,êî
+000833,1,"14,  35",example833,pass,çë
+000834,1,"11,  52",example834,pass,çë
+000835,1,"11,  41",example835,pass,é–
+000836,2,"22,  51",example836,pass,âp
+000837,1,"15,  34",example837,pass,çë
+000838,1,16,example838,pass,çë
+000839,2,24,example839,pass,êî
+000840,5,"21,  51",example840,pass,çë
+000841,2,"21,  52",example841,pass,çë
+000842,5,"33,  51",example842,pass,é–
+000843,5,"14,  51",example843,pass,é–
+000844,1,12,example844,pass,êî
+000845,1,16,example845,pass,âp
+000846,1,15,example846,pass,çë
+000847,3,"14,  33",example847,pass,êî
+000848,3,35,example848,pass,óù
+000849,2,23,example849,pass,é–
+000850,3,35,example850,pass,âp
+000851,1,"16,  35",example851,pass,çë
+000852,1,"11,  33",example852,pass,âp
+000853,5,52,example853,pass,óù
+000854,5,51,example854,pass,çë
+000855,2,23,example855,pass,çë
+000856,3,"13,  32",example856,pass,êî
+000857,1,11,example857,pass,é–
+000858,3,"35,  52",example858,pass,âp
+000859,5,52,example859,pass,óù
+000860,3,35,example860,pass,çë
+000861,2,"21,  52",example861,pass,óù
+000862,2,"21,  51",example862,pass,êî
+000863,3,32,example863,pass,êî
+000864,3,"16,  32",example864,pass,âp
+000865,3,33,example865,pass,çë
+000866,5,"13,  52",example866,pass,é–
+000867,3,"13,  34",example867,pass,êî
+000868,1,16,example868,pass,é–
+000869,1,13,example869,pass,êî
+000870,1,15,example870,pass,âp
+000871,1,16,example871,pass,âp
+000872,3,"24,  35",example872,pass,çë
+000873,1,14,example873,pass,óù
+000874,3,33,example874,pass,âp
+000875,1,11,example875,pass,êî
+000876,3,"34,  52",example876,pass,çë
+000877,5,51,example877,pass,é–
+000878,5,51,example878,pass,êî
+000879,2,23,example879,pass,é–
+000880,3,35,example880,pass,êî
+000881,3,35,example881,pass,âp
+000882,5,52,example882,pass,êî
+000883,3,"16,  35",example883,pass,âp
+000884,3,35,example884,pass,óù
+000885,5,"14,  52",example885,pass,âp
+000886,5,"14,  51",example886,pass,âp
+000887,2,22,example887,pass,é–
+000888,2,22,example888,pass,óù
+000889,3,"12,  33",example889,pass,êî
+000890,3,"14,  32",example890,pass,óù
+000891,3,32,example891,pass,âp
+000892,2,23,example892,pass,êî
+000893,5,"16,  52",example893,pass,é–
+000894,3,31,example894,pass,é–
+000895,1,11,example895,pass,âp
+000896,2,23,example896,pass,êî
+000897,1,"12,  41",example897,pass,é–
+000898,5,"15,  52",example898,pass,é–
+000899,2,21,example899,pass,óù
+000900,3,35,example900,pass,é–
+000901,3,35,example901,pass,óù
+000902,1,12,example902,pass,óù
+000903,1,"14,  51",example903,pass,é–
+000904,3,32,example904,pass,êî
+000905,1,14,example905,pass,âp
+000906,2,"22,  34",example906,pass,é–
+000907,3,"13,  32",example907,pass,é–
+000908,3,"14,  31,  51",example908,pass,êî
+000909,1,"12,  51",example909,pass,óù
+000910,3,"23,  35",example910,pass,çë
+000911,2,21,example911,pass,óù
+000912,3,"23,  33",example912,pass,é–
+000913,5,"14,  35,  51",example913,pass,çë
+000914,1,"13,  51",example914,pass,óù
+000915,3,"24,  35",example915,pass,êî
+000916,3,32,example916,pass,çë
+000917,5,"41,  51",example917,pass,óù
+000918,5,"11,  51",example918,pass,óù
+000919,1,"15,  35",example919,pass,êî
+000920,2,"24,  31",example920,pass,é–
+000921,1,12,example921,pass,é–
+000922,1,14,example922,pass,óù
+000923,3,"24,  32",example923,pass,âp
+000924,3,32,example924,pass,é–
+000925,1,15,example925,pass,êî
+000926,2,"22,  31",example926,pass,êî
+000927,1,"15,  34",example927,pass,âp
+000928,1,15,example928,pass,óù
+000929,1,"15,  31",example929,pass,é–
+000930,2,"23,  34",example930,pass,âp
+000931,1,"16,  41",example931,pass,êî
+000932,1,"16,  35,  52",example932,pass,çë
+000933,5,"21,  52",example933,pass,çë
+000934,5,51,example934,pass,êî
+000935,2,"22,  31",example935,pass,âp
+000936,3,"13,  35,  51",example936,pass,âp
+000937,3,"33,  51",example937,pass,çë
+000938,2,22,example938,pass,êî
+000939,1,15,example939,pass,êî
+000940,3,32,example940,pass,êî
+000941,1,"12,  31,  52",example941,pass,óù
+000942,2,23,example942,pass,óù
+000943,3,"16,  35",example943,pass,çë
+000944,3,33,example944,pass,âp
+000945,2,24,example945,pass,çë
+000946,1,"14,  35,  51",example946,pass,âp
+000947,2,22,example947,pass,âp
+000948,1,16,example948,pass,óù
+000949,4,"23,  41,  52",example949,pass,êî
+000950,2,21,example950,pass,êî
+000951,3,"23,  33",example951,pass,é–
+000952,2,"24,  34",example952,pass,êî
+000953,5,"33,  51",example953,pass,óù
+000954,2,"24,  33",example954,pass,óù
+000955,1,"15,  51",example955,pass,é–
+000956,1,11,example956,pass,óù
+000957,5,"12,  52",example957,pass,é–
+000958,3,"16,  33",example958,pass,âp
+000959,1,14,example959,pass,çë
+000960,1,12,example960,pass,âp
+000961,1,13,example961,pass,çë
+000962,2,22,example962,pass,óù
+000963,1,"12,  32",example963,pass,âp
+000964,2,"22,  52",example964,pass,é–
+000965,1,16,example965,pass,é–
+000966,3,"15,  32",example966,pass,óù
+000967,3,35,example967,pass,é–
+000968,3,35,example968,pass,çë
+000969,3,"22,  31",example969,pass,é–
+000970,5,"21,  51",example970,pass,êî
+000971,4,41,example971,pass,óù
+000972,2,24,example972,pass,âp
+000973,3,34,example973,pass,çë
+000974,2,21,example974,pass,êî
+000975,3,31,example975,pass,óù
+000976,1,12,example976,pass,âp
+000977,3,33,example977,pass,âp
+000978,2,21,example978,pass,êî
+000979,1,11,example979,pass,êî
+000980,2,"21,  52",example980,pass,âp
+000981,2,22,example981,pass,é–
+000982,3,"13,  34",example982,pass,óù
+000983,2,"23,  41",example983,pass,êî
+000984,2,"24,  32",example984,pass,êî
+000985,2,"22,  34",example985,pass,âp
+000986,5,52,example986,pass,âp
+000987,1,11,example987,pass,é–
+000988,3,34,example988,pass,âp
+000989,4,41,example989,pass,êî
+000990,1,"13,  51",example990,pass,âp
+000991,1,14,example991,pass,é–
+000992,4,"41,  52",example992,pass,óù
+000993,2,24,example993,pass,é–
+000994,3,33,example994,pass,çë
+000995,3,32,example995,pass,êî
+000996,1,"14,  33",example996,pass,óù
+000997,3,"21,  34",example997,pass,êî
+000998,5,"12,  51",example998,pass,óù
+000999,1,"14,  51",example999,pass,âp
